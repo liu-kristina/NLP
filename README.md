@@ -1,2 +1,2 @@
 # NLP
-Movie Recommender
+Movie Recommender using FastText Model
