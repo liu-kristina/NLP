@@ -1,2 +1,2 @@
 # NLP
-Movie Recommender using FastText Model
+Movie Recommender and Ecommerce Review Prediction using FastText Model
