@@ -1,20 +1,14 @@
 Project Intro/Objective
 The purpose of this project is to build an AI-powered system to be do classification problems ranging from detecting sarcasm, predicting E-Commerce reviews, and a simple movie recommender system with basic NLP techniques. 
 
-Methods Used
-Deep Learning
-NLP
-Word2Vec
-RNN-LSTM
+Methods Used:
+-Deep Learning
+-NLP
+-Word2Vec
+-RNN-LSTM
 Technologies
-Python
-Pandas, google colab
-The dataset
-News Headlines dataset for Sarcasm Detection is collected from two news websites.
-
-TheOnion: sarcastic versions of current events.
-HuffPost: real (and non-sarcastic) news headlines.
-Each record consists of three attributes: is_sarcastic: 1 if the record is sarcastic otherwise 0 headline: the headline of the news article article_link: link to the original news article. Useful in collecting supplementary data
+-Python
+-Pandas
 
 Word2Vec
 Word2Vec is an algorithm designed by Google that converts a word into vectors such that it groups similar words together into vector space. Usage examples: document retrieval, machine translation systems, autocompletion and prediction etc. In this notebook, I trained a Word2Vec model using the Gensim library.
