@@ -1,26 +1,97 @@
-Project Intro/Objective
-The purpose of this project is to build an AI-powered system to be do classification problems ranging from detecting sarcasm, predicting E-Commerce reviews, and a simple movie recommender system with basic NLP techniques. 
+# 📌 NLP & Deep Learning Classification Project
 
-Methods Used:
--Deep Learning
--NLP
--Word2Vec
--RNN-LSTM
-Technologies
--Python
--Pandas
+## 📖 Project Overview
 
-Word2Vec
-Word2Vec is an algorithm designed by Google that converts a word into vectors such that it groups similar words together into vector space. Usage examples: document retrieval, machine translation systems, autocompletion and prediction etc. In this notebook, I trained a Word2Vec model using the Gensim library.
+The purpose of this project is to build an AI-powered system capable of solving multiple classification problems, including:
 
-source: https://www.askpython.com/python-modules/gensim-word2vec
+- Sarcasm detection  
+- E-commerce review sentiment prediction  
+- A simple movie recommender system  
 
-FastText Embeddings
-An extention of Word2Vec algorithm. FastText embeddings exploit subword information to construct word embeddings. Representations are learnt of character -grams, and words represented as the sum of the -gram vectors. This extends the word2vec type models with subword information. This helps the embeddings understand suffixes and prefixes. Once a word is represented using character -grams, a skipgram model is trained to learn the embeddings.
+The project explores both traditional NLP techniques and modern deep learning approaches to compare performance and effectiveness.
 
-Source: https://paperswithcode.com/method/fasttext
+---
 
-BERT and DistilBERT
-A small, fast, cheap and light Transformer model based on the BERT architecture. The BERT transformer is a based deep learning technique for natural language processing (NLP) pre-training developed by Google on the entire Wikipedia dataset. BERT stands for Bidirectional Encoder Representations from Transformers.
+## 🧠 Methods Used
 
-source: https://arxiv.org/abs/1910.01108 https://arxiv.org/pdf/1810.04805.pdf
+- Deep Learning  
+- Natural Language Processing (NLP)  
+- Word2Vec  
+- RNN / LSTM  
+- Transformer-based models (BERT, DistilBERT)  
+
+---
+
+## Technologies
+
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- TensorFlow / Keras  
+- Hugging Face Transformers  
+- Gensim  
+
+---
+
+# Models & Techniques
+
+## 🔹 Word2Vec
+
+Word2Vec is an algorithm developed by Google that converts words into dense vector representations. It maps semantically similar words close together in vector space by learning from contextual information.
+
+### Applications
+- Document retrieval  
+- Machine translation  
+- Autocompletion and prediction  
+- Semantic similarity tasks  
+
+In this project, a Word2Vec model was trained using the **Gensim** library.
+
+**Source:**  
+https://www.askpython.com/python-modules/gensim-word2vec
+
+---
+
+## 🔹 FastText Embeddings
+
+FastText is an extension of the Word2Vec algorithm. It incorporates subword information by representing words as collections of character n-grams.
+
+Instead of treating words as atomic units, FastText:
+- Learns embeddings for character n-grams  
+- Represents each word as the sum of its n-gram vectors  
+- Better captures prefixes and suffixes  
+- Improves performance on rare or morphologically complex words  
+
+A skip-gram model is then trained to learn the embeddings.
+
+**Source:**  
+https://paperswithcode.com/method/fasttext
+
+---
+
+## 🔹 BERT & DistilBERT
+
+BERT (Bidirectional Encoder Representations from Transformers) is a transformer-based deep learning model for NLP pre-training developed by Google and trained on large corpora such as Wikipedia.
+
+Key characteristics:
+- Bidirectional contextual understanding  
+- Pre-trained on large text datasets  
+- Fine-tunable for downstream tasks  
+
+DistilBERT is a smaller, faster, and more efficient version of BERT that retains most of its performance while reducing computational cost.
+
+**Sources:**  
+- https://arxiv.org/abs/1810.04805  
+- https://arxiv.org/abs/1910.01108  
+
+---
+
+# 🎯 Project Objectives
+
+- Compare classical NLP methods with deep learning and transformer-based approaches  
+- Evaluate model performance across multiple classification tasks  
+- Analyze trade-offs between model complexity and efficiency  
+- Build a reusable NLP classification framework  
+
+
