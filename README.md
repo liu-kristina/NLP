@@ -36,7 +36,7 @@ The project explores both traditional NLP techniques and modern deep learning ap
 
 # Models & Techniques
 
-## 🔹 Word2Vec
+## Word2Vec
 
 Word2Vec is an algorithm developed by Google that converts words into dense vector representations. It maps semantically similar words close together in vector space by learning from contextual information.
 
@@ -53,7 +53,7 @@ https://www.askpython.com/python-modules/gensim-word2vec
 
 ---
 
-## 🔹 FastText Embeddings
+## FastText Embeddings
 
 FastText is an extension of the Word2Vec algorithm. It incorporates subword information by representing words as collections of character n-grams.
 
@@ -70,7 +70,7 @@ https://paperswithcode.com/method/fasttext
 
 ---
 
-## 🔹 BERT & DistilBERT
+## BERT & DistilBERT
 
 BERT (Bidirectional Encoder Representations from Transformers) is a transformer-based deep learning model for NLP pre-training developed by Google and trained on large corpora such as Wikipedia.
 
@@ -87,7 +87,7 @@ DistilBERT is a smaller, faster, and more efficient version of BERT that retains
 
 ---
 
-# 🎯 Project Objectives
+# Project Objectives
 
 - Compare classical NLP methods with deep learning and transformer-based approaches  
 - Evaluate model performance across multiple classification tasks  
