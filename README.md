@@ -1,4 +1,4 @@
-# 📌 NLP & Deep Learning Classification Project
+# NLP & Deep Learning Classification Project
 
 ## 📖 Project Overview
 
@@ -12,7 +12,7 @@ The project explores both traditional NLP techniques and modern deep learning ap
 
 ---
 
-## 🧠 Methods Used
+## Methods Used
 
 - Deep Learning  
 - Natural Language Processing (NLP)  
