@@ -70,7 +70,7 @@ https://paperswithcode.com/method/fasttext
 
 ---
 
-## BERT & DistilBERT
+## BERT
 
 BERT (Bidirectional Encoder Representations from Transformers) is a transformer-based deep learning model for NLP pre-training developed by Google and trained on large corpora such as Wikipedia.
 
