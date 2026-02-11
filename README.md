@@ -17,8 +17,8 @@ The project explores both traditional NLP techniques and modern deep learning ap
 - Deep Learning  
 - Natural Language Processing (NLP)  
 - Word2Vec  
-- RNN / LSTM  
-- Transformer-based models (BERT, DistilBERT)  
+- LSTM  
+- Transformer-based models (BERT)  
 
 ---
 
