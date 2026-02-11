@@ -16,6 +16,11 @@ TheOnion: sarcastic versions of current events.
 HuffPost: real (and non-sarcastic) news headlines.
 Each record consists of three attributes: is_sarcastic: 1 if the record is sarcastic otherwise 0 headline: the headline of the news article article_link: link to the original news article. Useful in collecting supplementary data
 
+Word2Vec
+Word2Vec is an algorithm designed by Google that converts a word into vectors such that it groups similar words together into vector space. Usage examples: document retrieval, machine translation systems, autocompletion and prediction etc. In this notebook, I trained a Word2Vec model using the Gensim library.
+
+source: https://www.askpython.com/python-modules/gensim-word2vec
+
 FastText Embeddings
 An extention of Word2Vec algorithm. FastText embeddings exploit subword information to construct word embeddings. Representations are learnt of character -grams, and words represented as the sum of the -gram vectors. This extends the word2vec type models with subword information. This helps the embeddings understand suffixes and prefixes. Once a word is represented using character -grams, a skipgram model is trained to learn the embeddings.
 
